@@ -1,0 +1,17 @@
+
+{
+  "manifest_version": 3,
+  "name": "Busca Aleatória no Site",
+  "version": "1.0",
+  "description": "Realiza uma busca automática no site com uma palavra aleatória",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "th.jpeg",
+      "48": "th.jpeg",
+      "128": "th.jpeg"
+    }
+  }
+}
