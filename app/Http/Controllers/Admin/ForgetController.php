@@ -51,7 +51,7 @@ class ForgetController extends Controller
         $username = $admin->username;
 
         $msg    = "<h4>Hello $username,</h4><div><p><strong>Your current username:</strong> $username</p><p><strong>Your new password:</strong>$pass</p></div>";
-
+        
         /******** Send mail to user ********/
         $data = [];
         $data['smtp_status'] = $be->is_smtp;
